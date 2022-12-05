@@ -42,3 +42,27 @@ Day 4: Java
 - If-Abfrage für Überschneidungen
 Part 2:
 -Dasselbe mit angepassten If-Abfragen
+
+Day 5: Java
+- absolute Drecksaufgabe
+- Sehr wahrscheinlich möglich den Input und das Layout einlesen zu lassen und zu parsen
+- für schnelleres Lösen den Input gehardcoded 
+- Dafür eine Arrayliste erstellt, die Stacks beinhalten, die wiederum Characters beinhalten
+- Die einzelnen Stacks erstellt und in die Liste gefügt
+- Anschließend ein Array aus Integern erstellt, welches für die Anweisungen genutzt wird
+- Input wird eingelesen und alle Zeichen, die keine Zahlen oder Lerrzeichen sind werden entfernt
+- Anschließend werden alle unnötigen Leerzeichen getrimmt -> 2 2 7
+- Leerzeichen werden durch ',' ersetzt -> 2,2,7
+- Der String wird an den ',' gesplittet und in ein Array gesetzt
+- Array wird in ein neues Array aus Integer geparsed
+- Dieses Array bildet die Anweisung
+- Erstes Element ist Anzahl Verschiebungen
+- Zweites Element Ursprungsort
+- Drittes Element Zielort
+- Mit einer For-Schleife für die Anzahl der Verschiebungen jeweils von den Stacks in der Liste das oberste Element speichern und poppen und anschließend auf das Zielstack setzen
+Part 2:
+- Im Prinzip dasselbe
+- Damit die Reihenfolge bei der Verschiebung erhalten bleibt, werden die gepoppten Werte in ein Array gespeichert und in umgekehrter Reihenfolge aus das Zielstack gepushed
+
+
+
