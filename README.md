@@ -65,4 +65,12 @@ Part 2:
 - Damit die Reihenfolge bei der Verschiebung erhalten bleibt, werden die gepoppten Werte in ein Array gespeichert und in umgekehrter Reihenfolge aus das Zielstack gepushed
 
 
+Day 6: Java
+- Gesamten input-String eingelesen/eingefügt
+- Variable pos deklarieren -> Ist der Marker und gibt derzeitige Position im String an
+- Array mit 4 füllbaren Elementen erstellt aus Chars
+- mit einer For-Schleife bei jedem Durchgang das Array mit 4 chars aus dem String füllen - Immer Verschiebung um 1
+- Mit genesteter For-Schleife den Inhalt des Arrays auf Duplikate prüfen und bei false die Schleife brechen und pos zurück geben
+Part 2:
+- Statt Array mit Größe 4 ein Array mit Größe 14
 
